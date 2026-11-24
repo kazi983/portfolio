@@ -112,6 +112,34 @@ li {
 }
 
 /* ===================== */
+/* Banner                */
+/* ===================== */
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-1) var(--spacing-5);
+  padding: var(--spacing-3) var(--spacing-4);
+  text-align: center;
+  background-color: var(--primary-color);
+}
+.banner-title {
+  font-family: var(--font-anton);
+  font-weight: normal;
+  font-size: var(--text-xl);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary-foreground);
+}
+.banner-text {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+  color: var(--primary-foreground);
+}
+
+/* ===================== */
 /* Navigation            */
 /* ===================== */
 .nav {
