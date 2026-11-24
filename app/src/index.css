@@ -288,6 +288,26 @@ section {
 }
 
 /* ===================== */
+/* Scroll snap           */
+/* ===================== */
+
+@media screen and (width > 1000px) and (prefers-reduced-motion: no-preference) {
+  html {
+    /* proximity: sections taller than the screen must stay freely scrollable */
+    scroll-snap-type: y proximity;
+  }
+  /* The banner replaces the hero as the first stop, or it is hidden on load */
+  .banner,
+  section:not(.hero-section) {
+    scroll-snap-align: start;
+  }
+  /* Keeps the bottom of the page reachable */
+  footer {
+    scroll-snap-align: end;
+  }
+}
+
+/* ===================== */
 /* Hero                  */
 /* ===================== */
 
