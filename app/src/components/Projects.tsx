@@ -10,7 +10,12 @@ function Projects() {
       <div className="project-content">
         {PROJECTS.map((project, i) => (
           <article key={project.name} className="fade-in-on-scroll">
-            <a href={project.href} className="project-item" target="blank">
+            <a
+              href={project.href}
+              className="project-item"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={project.image} alt={project.imageAlt} />
               <div className="project-info">
                 {/* Display number derived from position: _01., _02., ... */}

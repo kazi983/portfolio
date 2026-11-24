@@ -604,8 +604,13 @@ section {
 }
 .project-tech-list {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: var(--spacing-2);
   align-items: center;
   font-family: var(--font-mono);
+}
+.project-tech-list li {
+  white-space: nowrap;
 }
 .project-tech-list li:not(:last-child)::after {
   content: '';
