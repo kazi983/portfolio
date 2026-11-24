@@ -16,7 +16,6 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={project.image} alt={project.imageAlt} />
               <div className="project-info">
                 {/* Display number derived from position: _01., _02., ... */}
                 <div className="project-code">
@@ -31,6 +30,7 @@ function Projects() {
                   </ul>
                 </div>
               </div>
+              <img src={project.image} alt={project.imageAlt} />
             </a>
           </article>
         ))}

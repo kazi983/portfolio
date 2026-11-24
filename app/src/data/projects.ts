@@ -20,17 +20,17 @@ export const PROJECTS: Project[] = [
     techs: ["Electron", "React", "TypeScript", "Firebase", "Kotlin"],
   },
   {
-    name: "Player Stats Dashboard",
-    href: "https://player-stats.kaorukajihara.dev/",
-    image: playerStatsDashboardImage,
-    imageAlt: "Player Stats Dashboard rankings screen",
-    techs: ["Astro", "TypeScript", "Express", "PostgreSQL", "Docker"],
-  },
-  {
     name: "World Weather App",
     href: "https://travelworldwithweather.netlify.app/",
     image: worldWeatherAppImage,
     imageAlt: "Project 2",
     techs: ["Astro", "TypeScript", "SCSS"],
+  },
+  {
+    name: "Player Stats Dashboard",
+    href: "https://player-stats.kaorukajihara.dev/",
+    image: playerStatsDashboardImage,
+    imageAlt: "Player Stats Dashboard rankings screen",
+    techs: ["Astro", "TypeScript", "Express", "PostgreSQL", "Docker"],
   },
 ];
