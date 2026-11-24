@@ -13,7 +13,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     position: "Software Developer",
     company: COMPANY,
     highlights: [
-      "**200+ screens** improved",
+      "**200 screens** migrated from IE to Edge",
       "**1,000+ users** supported",
       "**5 years** of enterprise experience",
     ],
