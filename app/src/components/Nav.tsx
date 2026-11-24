@@ -1,5 +1,5 @@
 // The resume lives in public/, so it is served at a stable URL (not bundled).
-const RESUME_URL = "/download/Kaoru_Kajihara_Resume.docx.pdf";
+const RESUME_URL = "/download/Kaoru_Kajihara_Resume.pdf";
 
 const NAV_LINKS = [
   { href: "#hero", label: "Home" },

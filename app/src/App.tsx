@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Banner from "./components/Banner";
 import Experience from "./components/Experience";
 import FloatingEmail from "./components/FloatingEmail";
 import Footer from "./components/Footer";
@@ -12,6 +13,7 @@ import Stack from "./components/Stack";
 function App() {
   return (
     <>
+      <Banner />
       <Nav />
       <ProgressBar />
       <main>

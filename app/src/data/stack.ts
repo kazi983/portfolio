@@ -55,7 +55,7 @@ export const STACK: StackGroup[] = [
     items: [
       { name: "OracleSQL", icon: sqlDeveloperIcon },
       { name: "MongoDB", icon: mongoDbIcon },
-      { name: "PostgresSQL", icon: postgresIcon },
+      { name: "PostgreSQL", icon: postgresIcon },
       { name: "Prisma", icon: prismaIcon },
       { name: "Firebase", icon: firebaseIcon },
     ],

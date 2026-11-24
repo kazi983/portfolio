@@ -6,18 +6,19 @@ export type ExperienceItem = {
   period: string;
 };
 
-const COMPANY = "@ Panasonic Information Systems · Osaka, Japan";
+const COMPANY =
+  "@ Panasonic Digital (formerly Panasonic Information Systems) · Osaka, Japan";
 
 export const EXPERIENCES: ExperienceItem[] = [
   {
     position: "Software Developer",
     company: COMPANY,
     highlights: [
-      "**200+ screens** improved",
+      "**200 screens** migrated from IE to Edge",
       "**1,000+ users** supported",
       "**5 years** of enterprise experience",
     ],
-    period: "Aug 2020 - Mar 2025",
+    period: "Apr 2020 - Mar 2025",
   },
   {
     position: "IT Service Desk Team Lead",

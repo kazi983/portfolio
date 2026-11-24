@@ -1,4 +1,5 @@
-import projectImage1 from "../assets/images/project1.png";
+import playerStatsDashboardImage from "../assets/images/player-stats-dashboard.png";
+import shiodokiImage from "../assets/images/shiodoki.png";
 import worldWeatherAppImage from "../assets/images/world-weather-app.png";
 
 export type Project = {
@@ -12,11 +13,18 @@ export type Project = {
 // Display numbers (_01., _02., ...) follow the array order.
 export const PROJECTS: Project[] = [
   {
-    name: "Portfolio",
-    href: "#",
-    image: projectImage1,
-    imageAlt: "Project 1",
-    techs: ["CSS", "HTML"],
+    name: "Shiodoki",
+    href: "https://github.com/kazi983/shiodoki",
+    image: shiodokiImage,
+    imageAlt: "Shiodoki task management screen",
+    techs: ["Electron", "React", "TypeScript", "Firebase", "Kotlin"],
+  },
+  {
+    name: "Player Stats Dashboard",
+    href: "https://player-stats.kaorukajihara.dev/",
+    image: playerStatsDashboardImage,
+    imageAlt: "Player Stats Dashboard rankings screen",
+    techs: ["Astro", "TypeScript", "Express", "PostgreSQL", "Docker"],
   },
   {
     name: "World Weather App",
